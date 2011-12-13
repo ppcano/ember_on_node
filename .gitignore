@@ -1,0 +1,5 @@
+node_modules
+NERD*
+tmp
+packages/ember.js
+*.log

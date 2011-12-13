@@ -1,0 +1,20 @@
+{
+    "name": "ember_on_node"
+  , "main": "app.js"
+  , "version": "0.0.1"
+  , "private": true
+  , "author": "Pepe Cano <https://github.com/ppcano>"
+  , "dependencies": {
+      "express": "2.5.1"
+      , "connect-assetmanager": "0.0.24"
+  }, "devDependencies": {
+      "gleak": "0.1.3"
+      , "node-make-asset-pipeline": "0.0.2"
+
+  } 
+  , "engines" : { "node" : "0.4.7" } 
+
+  , "scripts": {
+    "start": "app.js"
+  }
+}

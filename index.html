@@ -1,0 +1,111 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Facebook Page Test</title>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+  </head>
+  <body>
+
+<div id="fb-root"></div>
+
+<div id="header">Header</div>
+
+<script type="text/x-handlebars">
+  {{#view App.MyView2}}
+    <h1>Hello ppcanodehuelva world!</h1>
+  {{/view}}
+</script>
+
+
+<script type="text/x-handlebars">
+  {{#view App.MainView}}
+    <h1>Hi  world!</h1>
+  {{/view}}
+</script>
+
+
+<div id="wrapper">
+	<div class="scroller">
+		<ul class="listview">
+			<li class="disabled">Pretty row 1</li>
+			<li>Pretty row 2</li>
+			<li>Pretty row 3</li>
+			<li>Pretty row 4</li>
+			<li>Pretty row 5</li>
+			<li>Pretty row 6</li>
+			<li>Pretty row 7</li>
+			<li class="disabled">Pretty row 1</li>
+			<li>Pretty row 9</li>
+			<li>Pretty row 10</li>
+			<li>Pretty row 11</li>
+			<li>Pretty row 12</li>
+			<li>Pretty row 13</li>
+			<li>Pretty row 14</li>
+			<li>Pretty row 15</li>
+			<li>Pretty row 16</li>
+			<li>Pretty row 17</li>
+			<li>Pretty row 18</li>
+			<li>Pretty row 19</li>
+			<li>Pretty row 20</li>
+			<li>Pretty row 21</li>
+			<li>Pretty row 22</li>
+			<li>Pretty row 23</li>
+			<li>Pretty row 24</li>
+			<li>Pretty row 25</li>
+			<li>Pretty row 26</li>
+			<li>Pretty row 27</li>
+			<li>Pretty row 28</li>
+			<li>Pretty row 29</li>
+			<li>Pretty row 30</li>
+			<li>Pretty row 31</li>
+			<li>Pretty row 32</li>
+			<li>Pretty row 33</li>
+			<li>Pretty row 34</li>
+			<li>Pretty row 35</li>
+			<li>Pretty row 36</li>
+			<li>Pretty row 37</li>
+			<li>Pretty row 38</li>
+			<li>Pretty row 39</li>
+			<li>Pretty row 40</li>
+		</ul>
+	</div>
+</div>
+
+
+<div id="footer"></div>
+
+  <script type="text/javascript" src="vendor/jquery.js"></script>
+  <script type="text/javascript" src="assets/ember.js"></script>
+  <script type="text/javascript" src="public/app.js"></script>
+
+  <script>
+
+    // TODO: on App Event, cannot be cause of can be called before, App has been created
+    // Additional initialization code here
+
+    // Load the SDK Asynchronously
+    (function(d){
+       var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+       js = d.createElement('script'); js.id = id; js.async = true;
+       js.src = "//connect.facebook.net/en_US/all.js";
+       d.getElementsByTagName('head')[0].appendChild(js);
+     }(document));
+
+  </script>
+
+
+
+</body>
+
+</html>
+
